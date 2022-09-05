@@ -31,7 +31,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "od11g6QzoPkyJfKkha06EP5fta7Y",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "Wue80GrtY1nAi5a4tam4FDxZF59WNx9pwcBc06LMpANnu8",
+      useTemplateId: "330L-VM5nAoWytnsxPLd_2WJ0RXYjMjaFhoG1AHolLY",
       // 所在省份
       province: "广西",
       // 所在城市
@@ -46,7 +46,7 @@ export const config = {
    */
 
   // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "gIda6O9GXlekxKurUXwkQZWAYvEwT_3gCabwIHa65gA",
+  CALLBACK_TEMPLATE_ID: "330L-VM5nAoWytnsxPLd_2WJ0RXYjMjaFhoG1AHolLY",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -65,9 +65,9 @@ export const config = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "安徽",
+  PROVINCE: "广西",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "合肥",
+  CITY: "梧州",
 
   /** 重要节日相关 */
 
@@ -116,8 +116,7 @@ export const config = {
     * 比如：keyword: "lover_prattle" ，在测试号中就是 {{ lover_prattle.DATA }} 
     * */
   SLOT_LIST: [
-    // 这样配置的话，就会每次发送这句话
-    {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
+
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
       "因为太喜欢你，所以看谁都像是情敌。",
